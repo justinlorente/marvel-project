@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "list": [
+            {
+                "item": "about us",
+                "url": "/"
+            },
+            {
+                "item": "help/faqs",
+                "url": "/"
+            },
+            {
+                "item": "careers",
+                "url": "/"
+            },
+            {
+                "item": "interships",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "list": [
+            {
+                "item": "advertising",
+                "url": "/"
+            },
+            {
+                "item": "disney+",
+                "url": "/"
+            },
+            {
+                "item": "marvel hq",
+                "url": "/"
+            },
+            {
+                "item": "redem digital comics",
+                "url": "/"
+            }
+        ]
+    }
+]

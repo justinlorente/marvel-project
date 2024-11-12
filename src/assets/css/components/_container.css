@@ -1,0 +1,6 @@
+.Container {
+    @apply flex flex-col px-[16%] py-6 h-full w-full sm:px-[113px] sm:py-10 md:flex-row md:px-[7%] md:py-11 lg:px-[8%] xl:px-[9.3%] xl:py-14 2xl:px-[19%];
+    .content {
+        @apply w-full flex flex-col md:flex-row;
+    }
+}

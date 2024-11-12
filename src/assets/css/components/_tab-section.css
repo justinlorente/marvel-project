@@ -1,0 +1,9 @@
+.Tabs-section {
+    @apply font-mono uppercase;
+    .react-tabs__tab {
+        @apply bg-red-600 text-white border-x-gray-200 border-gray-200 rounded-t-xl ease-in-out duration-300;
+    }
+    .react-tabs__tab--selected {
+        @apply bg-white text-red-600  ease-in-out duration-300;
+    }
+}

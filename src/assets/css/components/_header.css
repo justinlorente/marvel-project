@@ -1,0 +1,6 @@
+.Header {
+    @apply bg-black border-b-red-500 border-b-4 flex flex-row h-20 items-end justify-center w-full lg:h-28;
+    .logo {
+        @apply h-10 w-28;
+    }
+}

@@ -1,0 +1,28 @@
+.Card {
+    @apply my-4 m-5 p-3 w-full h-full bg-zinc-300 rounded-md shadow-sm;
+
+    .thumbnail-container {
+        @apply relative overflow-hidden text-center w-full;
+        .read-more {
+            @apply absolute bottom-0 rounded-b-md bg-red-600 w-full h-11 py-2 translate-y-20 hover:text-white ease-in-out duration-500 cursor-pointer;
+        }
+        .thumbnail {
+            @apply h-52 w-full rounded-md cursor-default;
+        }
+    }
+
+    .thumbnail-container:hover {
+        .read-more {
+            @apply translate-y-0 ease-in-out duration-500;
+        }
+    }
+    .container {
+        @apply flex flex-row justify-between items-center;
+        .name {
+            @apply p-3 text-sm xl:text-base hover:text-red-600 ease-in-out duration-500 cursor-default text-center;
+        }
+        .favorite {
+            @apply cursor-pointer text-sm hover:text-yellow-500 ease-in-out duration-300;
+        }
+    }
+}

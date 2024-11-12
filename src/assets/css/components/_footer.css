@@ -1,0 +1,15 @@
+.Footer {
+    @apply bottom-0 bg-black h-auto w-full;
+    .content {
+        @apply flex flex-row py-7 justify-center items-center;
+        .logo {
+            @apply h-20 m-5 w-16 md:h-24 md:w-20;
+        }
+        .list {
+            @apply font-mono text-xs text-gray-400 my-5 mx-2 lg:mx-10 uppercase lg:text-sm;
+            .item {
+                @apply cursor-pointer py-2 lg:py-4 hover:text-red-600 hover:underline hover:underline-offset-8 hover:ease-in-out duration-300;
+            }
+        }
+    }
+}

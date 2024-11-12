@@ -1,0 +1,6 @@
+.Loader {
+    @apply text-center mx-5;
+    .icon {
+        @apply animate-spin text-base text-red-600;
+    }
+}

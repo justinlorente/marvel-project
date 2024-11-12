@@ -1,0 +1,3 @@
+.Infinite-scroll-container {
+    @apply overflow-scroll h-[750px] overflow-x-hidden;
+}
